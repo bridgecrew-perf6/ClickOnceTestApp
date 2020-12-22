@@ -62,22 +62,22 @@
       <dsig:DigestValue>UnBFSQwN3mLtCRDFdvWy2y+ZvHTD2GTDvPPgGBvqOPw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QuickClick.Client.dll" size="6656">
+  <file name="QuickClick.Client.dll" size="7168">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>BlqkeezCOKqSgrDwZ47CizkiAhRnmZ0/lGKvXy0tXKo=</dsig:DigestValue>
+      <dsig:DigestValue>OuvOtq7lt1kr3XtHgzvw+Ye1TL/51ulLSUoAOgmM9Oo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QuickClick.Client.exe" size="174080">
+  <file name="QuickClick.Client.exe" size="174592">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>U6hOHmcavs2m4dsgV5yD9s068SjCUckwFKQDDBCn0hI=</dsig:DigestValue>
+      <dsig:DigestValue>38SQI/lYPOd3yVHhXjxGWotcsuOut+QkX/TVGoP7p1I=</dsig:DigestValue>
     </hash>
   </file>
   <file name="QuickClick.Client.runtimeconfig.json" size="161">
