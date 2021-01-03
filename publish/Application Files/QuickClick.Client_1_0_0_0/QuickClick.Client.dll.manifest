@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QuickClick.Client.exe" version="1.0.0.0" publicKeyToken="66bcabd8efe52780" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15296">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8rbf33rKM3xswJaXhhx1y+YwNF5/hZYcoRG9Wl03jhQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="QuickClick.Client.deps.json" size="443">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UnBFSQwN3mLtCRDFdvWy2y+ZvHTD2GTDvPPgGBvqOPw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QuickClick.Client.dll" size="8128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1/hVtwh4s5F0ipjYZnLiUDON68tkghxfuywe6P8R2Vw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QuickClick.Client.exe" size="175552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ro5KiI0PU8TpW7GxOZO0RvH4cQ9ZTyeDcgHVOEJ2N64=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QuickClick.Client.runtimeconfig.json" size="161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JEdMwGltKlJ/VjUDCkPZtJsOaZOrS/AfPDPsNBMwP+0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TANEJAPRO\rtane" issuerKeyHash="97c46a22c2c2934b249368a63f113a14f497161e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wGtY18CXVNGlo/nRLqqv+jtIlvt70r1zcLNOo2N3qB0=</DigestValue></Reference></SignedInfo><SignatureValue>kBv2fG4rAdShHNGZAu5OIIIRrc+35BU7g3wl0YIaHWpPw5yPByE/VLzjOIgfUW8BN+vfbG2W0bCsjRp7TCZhpqdpPptNryK9DZ7UYAOrBLakvo4yBVmH+nZS17NUVH9OWlj0/j0p48Wm4MFGuA08mS1q4Rz//krc9NagjZnKUsc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x8b8DTsYNb4DVtVjcKmeuIr8AggvUi0rTeoY/Sr7b/Kh0FAkvFQ8zFiLGN01UAAY40OEvJytu5PUpaD3I5MBPgNDreT/+ZsPsBX1LMXx88xGFVNljLmv/Gtajl7KwU4H0inuYCwWLmOHkXstEas++blwzmg++OvnUxDrbJNrS1E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1da87763a34eb37073bdd27bfb96483bfaafaa2ed1f9a3a5d15497c0d7586bc0" Description="" Url=""><as:assemblyIdentity name="QuickClick.Client.exe" version="1.0.0.0" publicKeyToken="66bcabd8efe52780" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TANEJAPRO\rtane</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LQp4MleOU475oErI7stxoklL8X6bw4MqRn9erZN5mfc=</DigestValue></Reference></SignedInfo><SignatureValue>gBQHfglKsPPNOr/xa+8SNHtdyjYzVvWm1eMBVM0DO46SFjC1RhjcBmgzdKDMknXdNb/ysIaW6EejODUnTC8PCP0ROnt9duzyU3kjDFZPF3T3srfApJqtVY21l3LCqFKjclktcqDGFhuMDYbvdgqsCC4JqLHz+CJ4iAQXjrgu60I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x8b8DTsYNb4DVtVjcKmeuIr8AggvUi0rTeoY/Sr7b/Kh0FAkvFQ8zFiLGN01UAAY40OEvJytu5PUpaD3I5MBPgNDreT/+ZsPsBX1LMXx88xGFVNljLmv/Gtajl7KwU4H0inuYCwWLmOHkXstEas++blwzmg++OvnUxDrbJNrS1E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQTKHt2fD035pFxsF3K5IY5jANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AVABBAE4ARQBKAEEAUABSAE8AXAByAHQAYQBuAGUwHhcNMjEwMTAzMDA0NTE1WhcNMjIwMTAzMDY0NTE1WjApMScwJQYDVQQDHh4AVABBAE4ARQBKAEEAUABSAE8AXAByAHQAYQBuAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMfG/A07GDW+A1bVY3CpnriK/AIIL1ItK03qGP0q+2/yodBQJLxUPMxYixjdNVAAGONDhLycrbuT1KWg9yOTAT4DQ63k//mbD7AV9SzF8fPMRhVTZYy5r/xrWo5eysFOB9Ip7mAsFi5jh5F7LRGrPvm5cM5oPvjr51MQ62yTa0tRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAssK9BN7/doGdMN99RBWhZyEEQAh1bMbOZ1qR0gylUgxVRoNYktUfYkVz0QC7jYIrqBdR2CQZ5IQIB9gbemati7ejb+XiQMwjeVjsj/OXzN8q7TNA6AfJwJGSFu7bhPjODm97Qfn5le8neGlXh/cTEWmzdmj8SGkqqd8urw4UodE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
